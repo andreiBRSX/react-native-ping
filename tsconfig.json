@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outFile": "index.js",
+        "declaration": true,
+        "module": "system",
+        "skipLibCheck": true,
+        "lib": ["es2015"]
+    }
+}
