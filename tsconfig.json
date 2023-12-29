@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
-        "outFile": "index.js",
         "declaration": true,
-        "module": "system",
+        "module": "esnext",
         "skipLibCheck": true,
         "lib": ["es2015"]
     }
