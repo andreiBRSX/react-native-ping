@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  prepare:
+    image: node:18
+    volumes: 
+      - .:/usr/app
+    working_dir: /usr/app
+    command: ["/bin/sh", "-c", "yarn && yarn build"]
